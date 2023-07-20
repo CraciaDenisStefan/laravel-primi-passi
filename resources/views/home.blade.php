@@ -7,24 +7,19 @@
         <title>Laravel</title>
     </head>
     <body>
-    
-
-
-<header>
-<div class="container my-5">
-<a href="/bonus" class="btn btn-primary" tabindex="-1" role="button" >Vai sulla seconda pagina per un altro saluto</a>
-<a href="/bonus2" class="btn btn-primary" tabindex="-1" role="button" >Vai qui invece se vuoi vedere la mia faccia !</a>
-</div>
-</header>
-<main>
-    <div class="container">
-
-    <h1>Hello world</h1>
-<hr>
-    <h3>Saluto inserito :</h3>
-    <h1>{{$saluto}} {{$mondo}}</h1>
-    </div>
-</main>
-
+        <header>
+            <div class="container my-5">
+                <a href="/bonus" class="btn btn-primary" tabindex="-1" role="button" >Vai sulla seconda pagina per un altro saluto</a>
+                <a href="/bonus2" class="btn btn-primary" tabindex="-1" role="button" >Vai qui invece se vuoi vedere la mia faccia !</a>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <h1>Hello world</h1>
+            <hr>
+                <h3>Saluto inserito :</h3>
+                <h1>{{$saluto}} {{$mondo}}</h1>
+            </div>
+        </main>
     </body>
 </html>
