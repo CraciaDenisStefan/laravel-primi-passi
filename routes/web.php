@@ -22,3 +22,21 @@ Route::get('/', function () {
 
     return view('home', $data);
 });
+
+Route::get('/bonus', function () {
+
+    $data_2 = [ 
+        'saluto' => 'Hello',
+        'mondo'  => 'World',
+        'biss'  => 'Again'
+    ];
+
+    return view('bonus', $data_2);
+});
+
+Route::get('/bonus2', function () {
+
+    $faccia = 'https://media.licdn.com/dms/image/D4E03AQFoIph97A61kA/profile-displayphoto-shrink_800_800/0/1689181792161?e=1695254400&v=beta&t=nwhRdLcQhgdC693c9Xwvx0aTGHBXfpBEd8Mhu_yEzSA'   ;
+
+    return view('bonus2',compact('faccia'));
+});
