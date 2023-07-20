@@ -8,5 +8,8 @@
     </head>
     <body>
     <h1>Hello world</h1>
+<hr>
+    <h3>Saluto inserito :</h3>
+    <h1>{{$saluto}} {{$mondo}}</h1>
     </body>
 </html>
